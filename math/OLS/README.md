@@ -17,8 +17,8 @@ $X^{T}X \hat{a} = X^{T}Y$
 
 ## For 2 variables
 
-$a₁ = \frac{n \sum{x_{i}y_{i}} - \sum{x_{i}y_{i}}}
-           {n\sum{x_{i}^{2}} - (\sum{x_{i}})^{2} }$
+$a_{1} = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{
+                    \sum_{i=1}^n (x_i - \bar{x})^2}$  
 
 $a₀ = \overline{y} - a₁\overline{x}$
 
