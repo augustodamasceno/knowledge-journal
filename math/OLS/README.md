@@ -8,7 +8,7 @@
 
 $y = a_{0} + a_{1}x + a_{2}x^{2} + ... + a_{n}x^{n} + e$
 
-X = Vandermonde Matrix  
+X = Vandermonde Matrix [Ref 1]  
 ![Vandermonde Matrix](VandermondeMatrix.jpg)
 
 $\hat{a} = [a_{0}, a_{1} , ..., a_{n} ]^{T}$

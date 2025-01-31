@@ -1,12 +1,19 @@
-# Knowledge-Journal
+# Knowledge Journal
 My Knowledge Journal is a structured collection of notes on mathematics, engineering, artificial intelligence, programming, economics, and other related fields.
 
 ### Contact
 [augustodamasceno@protonmail.com](mailto:augustodamasceno@protonmail.com)
 
+
+## Code License
 > Copyright (c) 2025, Augusto Damasceno.  
 > All rights reserved.   
 > SPDX-License-Identifier: BSD-2-Clause
+
+## Non-Code License
+> Copyright (c) 2025, Augusto Damasceno.  
+> All rights reserved.  
+> SPDX-License-Identifier: CC-BY-4.0  
 
 ## Notes  
 
