@@ -41,8 +41,8 @@ $F = \frac{(RSS_{\text{restricted}} - RSS_{\text{unrestricted}}) / q}{RSS_{\text
 - $RSS_{\text{restricted}}$: Residual sum of squares from the restricted model.
 - $RSS_{\text{unrestricted}}$: Residual sum of squares from the unrestricted model.
 - $T$: Number of observations.
-- $p$: Number of lags for $ Y $.
-- $q$: Number of lags for $ X $.
+- $p$: Number of lags for $Y$.
+- $q$: Number of lags for $X$.
 
 ---
 
