@@ -5,22 +5,22 @@ The restricted model predicts $Y_{t}$ using only its own past values:
 
 $Y_{t} = \alpha_{0} + \sum_{i=1}^{p} \alpha_i Y_{t-i} + \epsilon_{t}$
 
-- $ Y_t $: Target variable at time $ t $.
-- $ \alpha_0 $: Constant term.
-- $ \alpha_i $: Coefficients for the lagged values of $ Y $.
-- $ p $: Number of lags for $ Y $.
-- $ \epsilon_t $: Error term.
+- $ _t$: Target variable at time $t$.
+- $\alpha_0$: Constant term.
+- $\alpha_i$: Coefficients for the lagged values of $Y$.
+- $p$: Number of lags for $ Y $.
+- $\epsilon_t$: Error term.
 
 ---
 
 ## 2. **Unrestricted Model**
-The unrestricted model predicts $ Y_t $ using both its own past values and the past values of $ X $:
+The unrestricted model predicts $Y_t$ using both its own past values and the past values of $X$:
 
 $Y_t = \alpha_0 + \sum_{i=1}^{p} \alpha_i Y_{t-i} + \sum_{j=1}^{q} \beta_j X_{t-j} + \epsilon_t$
 
 - $X_{t-j}$: Predictor variable at lag $j$.
 - $\beta_j$: Coefficients for the lagged values of $X$.
-- $q$: Number of lags for $ X $.
+- $q$: Number of lags for $X$.
 
 ---
 
