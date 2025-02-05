@@ -47,7 +47,7 @@ $F = \frac{(RSS_{\text{restricted}} - RSS_{\text{unrestricted}}) / q}{RSS_{\text
 ---
 
 ## 5. **Decision Rule**
-- If the F-statistic > critical value (from the F-distribution), reject $H_0 .
+- If the F-statistic > critical value (from the F-distribution), reject $H_0$ .
 - Conclude that $X$ Granger-causes $Y$.
 
 ---
