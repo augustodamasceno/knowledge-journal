@@ -1,5 +1,6 @@
-## Explanations and Formulas(Brazilian Portuguese)
-> https://cn.ect.ufrn.br/index.php
+# Explanations and Formulas  
+  > Brazilian Portuguese  
+## https://cn.ect.ufrn.br/index.php
 * Ponto Flutuante  
 * Série de Taylor  
 * Raízes  

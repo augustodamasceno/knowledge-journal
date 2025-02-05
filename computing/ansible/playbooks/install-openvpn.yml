@@ -1,0 +1,22 @@
+---
+# Install OpenVPN Ansible Playbook. By Augusto Damasceno.
+# Copyright (c) 2023, Augusto Damasceno.  
+# All rights reserved.  
+# SPDX-License-Identifier: BSD-2-Clause
+# Contact
+# augustodamasceno@protonmail.com
+- name: Install and Configure OpenVPN
+  hosts: test
+  become: true
+  tasks:
+    - name: Update and upgrade apt packages
+      apt:
+        update_cache: yes
+        upgrade: dist
+
+    - name: Install OpenVPN and Easy-RSA
+      apt:
+        name:
+          - openvpn
+          - easy-rsa
+        state: present

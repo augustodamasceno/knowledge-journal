@@ -5,12 +5,15 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 [augustodamasceno@protonmail.com](mailto:augustodamasceno@protonmail.com)
 
 
-## Code License
+## License
+> Files can have their license. If not explicit follow the licenses below.  
+
+### Code License
 > Copyright (c) 2025, Augusto Damasceno.  
 > All rights reserved.   
 > SPDX-License-Identifier: BSD-2-Clause
 
-## Non-Code License
+### Non-Code License
 > Copyright (c) 2025, Augusto Damasceno.  
 > All rights reserved.  
 > SPDX-License-Identifier: CC-BY-4.0  

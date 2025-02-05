@@ -1,0 +1,30 @@
+---
+all:
+  children:
+    production:
+      hosts:
+        production.example.com:
+          ansible_port: 2222
+          ansible_user: prod_admin
+          ansible_ssh_private_key_file: /path/to/ssh/key/prod_rsa
+
+    test:
+      hosts:
+        test.example.com:
+          ansible_port: 2223
+          ansible_user: test_admin
+          ansible_ssh_private_key_file: /path/to/ssh/key/test_rsa
+
+    webserver:
+      hosts:
+        webserver.example.com:
+          ansible_port: 2224
+          ansible_user: web_admin
+          ansible_ssh_private_key_file: /path/to/ssh/key/web_rsa
+
+    database:
+      hosts:
+        database.example.com:
+          ansible_port: 2225
+          ansible_user: db_admin
+          ansible_ssh_private_key_file: /path/to/ssh/key/db_rsa
