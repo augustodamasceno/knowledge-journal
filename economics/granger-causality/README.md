@@ -5,7 +5,7 @@ The restricted model predicts $Y_{t}$ using only its own past values:
 
 $Y_{t} = \alpha_{0} + \sum_{i=1}^{p} \alpha_i Y_{t-i} + \epsilon_{t}$
 
-- $ _t$: Target variable at time $t$.
+- $Y_t$: Target variable at time $t$.
 - $\alpha_0$: Constant term.
 - $\alpha_i$: Coefficients for the lagged values of $Y$.
 - $p$: Number of lags for $ Y $.
