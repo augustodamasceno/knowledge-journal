@@ -11,7 +11,7 @@ $Y_{t} = \alpha_{0} + \sum_{i=1}^{p} \alpha_i Y_{t-i} + \epsilon_{t}$
 - $p$: Number of lags for $ Y $.
 - $\epsilon_t$: Error term.
 
-> Solve Ordinary Least Squares for Y and p shifteds Y.
+> [Solve Ordinary Least Squares for Y and p shifteds Y](https://github.com/augustodamasceno/knowledge-journal/blob/main/math/OLS/README.md).
 ---
 
 ## 2. **Unrestricted Model**
@@ -23,7 +23,7 @@ $Y_t = \alpha_0 + \sum_{i=1}^{p} \alpha_i Y_{t-i} + \sum_{j=1}^{q} \beta_j X_{t-
 - $\beta_j$: Coefficients for the lagged values of $X$.
 - $q$: Number of lags for $X$.
 
-> Solve Ordinary Least Squares for Y and p shifteds X and Y.
+> [Solve Ordinary Least Squares for Y and p shifteds X and Y](https://github.com/augustodamasceno/knowledge-journal/blob/main/math/OLS/README.md).
 ---
 
 ## 3. **Hypothesis Testing**
