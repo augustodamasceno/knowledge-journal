@@ -9,7 +9,7 @@
 $y_i = a_{i0} + a_{i1}x_1 + a_{i2}x_{2} + ... + a_{in}x_{n} + e_i$
 
 X = Vandermonde Matrix [Ref 1]  
-![Vandermonde Matrix](VandermondeMatrix.jpg)
+![Vandermonde Matrix](vandermonde-matrix.jpg)
 
 $\hat{a} = [a_{0}, a_{1} , ..., a_{n} ]^{T}$
 
