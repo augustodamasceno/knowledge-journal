@@ -6,7 +6,7 @@
 * $a_{0}$ = intercept  
 * $a_{1}, a_{2}, ..., a_{n}$ = coefficients  
 
-$y = a_{0} + a_{1}x + a_{2}x^{2} + ... + a_{n}x^{n} + e$
+$y_i = a_{i0} + a_{i1}x_1 + a_{i2}x_{2} + ... + a_{in}x_{n} + e_i$
 
 X = Vandermonde Matrix [Ref 1]  
 ![Vandermonde Matrix](VandermondeMatrix.jpg)
@@ -14,6 +14,8 @@ X = Vandermonde Matrix [Ref 1]
 $\hat{a} = [a_{0}, a_{1} , ..., a_{n} ]^{T}$
 
 $X^{T}X \hat{a} = X^{T}Y$
+
+$\hat{a} = (X^{T}X)^{-1}X^{T}Y$
 
 ## For 2 variables
 
