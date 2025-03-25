@@ -9,8 +9,7 @@
 # Summary
   * Use sudoedit instead of sudo EDITOR  
   * UFW Firewall  
-  * Kill Switch with iptables, ufw and pf
-  * Cryptography  
+  * Kill Switch with iptables, ufw and pf 
   * Watch a port with tshark
   * Show all listening services  
   * Kill all processes associated with a user  
