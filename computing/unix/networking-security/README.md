@@ -9,7 +9,7 @@
 # Summary
   * Use sudoedit instead of sudo EDITOR  
   * UFW Firewall  
-  * Kill Switch with iptables, ufw and pf 
+  * Kill Switch with iptables, ufw and pf
   * Watch a port with tshark
   * Show all listening services  
   * Kill all processes associated with a user  
@@ -154,33 +154,6 @@ pass out quick on $ext_if proto tcp from any to $vpn_server_ip port $vpn_server_
 pass in quick on lo0
 pass out quick on lo0
 ```
-
-# Cryptography  
-## GnuPG Cheat Sheet  
-https://gist.github.com/augustodamasceno/94a7c8d05126f39e1ba2cc70bac22508
-## Encrypt and decrypt using only a password with OpenSSL   
-* Encrypt
-```bash
-tar cf - <FILES-OR-DIRECTORY> | openssl enc -aes-256-cbc -salt -out encrypted.tar.enc -k <PASSWORD>
-```
-* Decrypt
-```bash
-openssl enc -d -aes-256-cbc -in encrypted.tar.enc -out decrypted.tar -k <PASSWORD> && tar xvf decrypted.tar
-```
-## Strong cryptographically random data using OpenSSL  
-### Raw
-```bash
-openssl rand <NUMBER-BYTES>
-```
-### Hexadecimal
-```bash
-openssl rand -hex <NUMBER-BYTES>
-```
-### Base 64
-```bash
- openssl rand -base64 <NUMBER-BYTES>
-```
- 
 
 # Watch a port with tshark
 ```bash
