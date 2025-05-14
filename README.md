@@ -104,7 +104,7 @@ deactivate
 
 Your terminal prompt returns to normal.
 
-#### **3. Requirements**
+#### **4. Requirements**
 Activate your virtual environment and install all dependencies listed in the requirements.txt file.
 
 ```bash
