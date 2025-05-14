@@ -48,8 +48,64 @@ If pip is not installed, you can install it using:
 python3 -m ensurepip --upgrade
 ```
 
+#### *3. Python Virtual Environment (venv)*
+
+A **Python virtual environment** creates isolated environments to manage Python packages and dependencies separately for each project, preventing conflicts between projects.
+
+* Creating a Virtual Environment
+
+In your terminal, navigate to your project's directory and run:
+
+```bash
+python3 -m venv myenv
+```
+
+This command creates a new virtual environment named `myenv`.
+
+* Activating the Virtual Environment
+
+**On FreeBSD/Linux/macOS:**
+
+```bash
+source myenv/bin/activate
+```
+
+**On Windows (CMD):**
+
+```cmd
+myenv\Scripts\activate
+```
+
+**On Windows (PowerShell):**
+
+```powershell
+myenv\Scripts\Activate.ps1
+```
+
+After activation, your terminal prompt will start with `(myenv)`.
+
+* Installing Packages
+
+Within your activated environment, install packages using:
+
+```bash
+pip install package_name
+```
+
+These packages will only exist inside this environment.
+
+* Deactivating the Environment
+
+To exit the virtual environment, run:
+
+```bash
+deactivate
+```
+
+Your terminal prompt returns to normal.
+
 #### **3. Requirements**
-Install all dependencies listed in the requirements.txt file.
+Activate your virtual environment and install all dependencies listed in the requirements.txt file.
 
 ```bash
 pip install -r requirements.txt
