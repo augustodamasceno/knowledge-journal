@@ -52,6 +52,24 @@ python3 -m ensurepip --upgrade
 
 A **Python virtual environment** creates isolated environments to manage Python packages and dependencies separately for each project, preventing conflicts between projects.
 
+* Install 
+```bash
+# Debian/Ubuntu
+sudo apt install python3-venv
+
+# Fedora
+sudo dnf install python3-venv
+
+# Arch
+sudo pacman -S python
+
+# FreeBSD
+pkg install py39-virtualenv  # or adjust version as needed
+
+# Windows
+# No installation needed, venv comes with Python ≥ 3.3
+```
+
 * Creating a Virtual Environment
 
 In your terminal, navigate to your project's directory and run:
