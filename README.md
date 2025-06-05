@@ -14,7 +14,7 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 |--------|-------------|  
 | computing | Computer Science and Engineering. Including all computational methods and code implementations for math and economics. |  
 | math | Mathematical formulas and theoretical concepts (no code or computational methods). |    
-| mixed | Economics, Materials, and Nutrition |  
+| mixed | Chemistry, Economics, Materials, and Nutrition |  
 | visualization | Graphical representations, charts, plots, and data visualizations for various subjects. |   
 
 ## **Session 1 - Working with Jupyter Files**
