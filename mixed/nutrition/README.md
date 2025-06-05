@@ -74,3 +74,4 @@
 * OPENAI. Chat with AI. Disponível em: https://chat.openai.com/.
 * TWIN, Leandro. LeandroTwin. Youtube. Disponível em: https://www.youtube.com/@LeandroTwin.  
 * Jie Yu and others, Effects of a reduced-sodium added-potassium salt substitute on blood pressure in rural Indian hypertensive patients: a randomized, double-blind, controlled trial, The American Journal of Clinical Nutrition, Volume 114, Issue 1, July 2021, Pages 185–193, https://doi.org/10.1093/ajcn/nqab054
+* Cooper, R., Naclerio, F., Allgrove, J., & Jimenez, A. (2012). Creatine supplementation with specific view to exercise/sports performance: An update. In Journal of the International Society of Sports Nutrition (Vol. 9). https://doi.org/10.1186/1550-2783-9-33   
