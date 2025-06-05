@@ -23,21 +23,49 @@ echo $?
 ```
 
 ## Files
-### Empty out a file
+* Empty out a file
 ```bash
 truncate -s 0 <FILE>
 ```
-### Set a file as immutable.
+* Set a file as immutable.
 ```bash
 chattr +i <FILE>
 ```
-### Test if a directory exists
+* Test if a directory exists
 ```bash
 [ -d <DIRECTORY> ]
 ```
-### Test if a file exists
+* Test if a file exists
 ```bash
 test -f <FILE>
+```
+* Compare two files (show content differences)
+```bash
+diff file1.txt file2.txt
+```
+* Compare ignoring case
+```bash
+diff -i file1.txt file2.txt
+```
+* Compare ignoring whitespace
+```bash
+diff -w file1.txt file2.txt
+```
+* Compare folders recursively (show all diffs)
+```bash
+diff -r folder1/ folder2/
+```
+* Show only which files differ
+```bash
+diff -qr folder1/ folder2/
+```
+* Show only changed files (not missing/extra)
+```bash
+diff -qr folder1/ folder2/ | grep '^Files'
+```
+* Just list differing filenames
+```bash
+diff -qr folder1/ folder2/ | grep '^Files' | cut -d' ' -f2
 ```
 
 ## Command output to the clipboard using X  
