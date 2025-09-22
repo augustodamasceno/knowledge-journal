@@ -13,14 +13,11 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 ## Summary  
 
 * Overview  
-
-* [Section 1 - Working with Jupyter Files](section1-jupyter.md)  
-
+* Session 1 -  More Comprehensive Projects  
+* [Section 2 - Working with Jupyter Files](section2-jupyter.md)  
 
 
 ## Overview  
-
-
 
 | Folder | Content |  
 
@@ -35,39 +32,38 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 | Visualization | Data visualization. |  
 
 
-> Some notes are linked to more comprehensive projects in separate repositories.  
+## **Session 1 -  More Comprehensive Projects** 
+
+* Arduino Notes  [https://github.com/augustodamasceno/notes-arduino](https://github.com/augustodamasceno/notes-arduino)  
+* C Lib  [https://github.com/augustodamasceno/mylibc](https://github.com/augustodamasceno/mylibc)  
+* FPGA Notes   [https://github.com/augustodamasceno/notes-fpga](https://github.com/augustodamasceno/notes-fpga)  
+* Gin Shell [https://github.com/augustodamasceno/gsh](https://github.com/augustodamasceno/gsh)  
+* Python Lib  [https://github.com/augustodamasceno/mylibpy](https://github.com/augustodamasceno/mylibpy)  
 
 
+## **Session 2 - Working with Jupyter Files**
 
-## **Session 1 - Working with Jupyter Files**
-
-> File [section1-jupyter](section1-jupyter.md)
+* File [section2-jupyter](section2-jupyter.md)
 
 
 
 ## License
 
-> Files can have their license. If not explicit, follow the licenses below.  
+* Files can have their license. If not explicit, follow the licenses below.  
 
 
-
-### **Code License**
-
-> Copyright (c) 2025, Augusto Damasceno.  
-
-> All rights reserved.   
-
-> SPDX-License-Identifier: BSD-2-Clause
-
-
-
-### **Non-Code License**
+* **Code License**
 
 > Copyright (c) 2025, Augusto Damasceno.  
+All rights reserved.   
+SPDX-License-Identifier: BSD-2-Clause
 
-> All rights reserved.  
 
-> SPDX-License-Identifier: CC-BY-4.0  
+* **Non-Code License**
+
+> Copyright (c) 2025, Augusto Damasceno.  
+All rights reserved.  
+SPDX-License-Identifier: CC-BY-4.0  
 
 
 
