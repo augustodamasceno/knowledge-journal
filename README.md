@@ -2,13 +2,13 @@
 
 My Knowledge Journal is a structured collection of notes on mathematics, engineering, artificial intelligence, programming, economics, and other related fields.
 
-
+---
 
 ### Contact
 
 [augustodamasceno@protonmail.com](mailto:augustodamasceno@protonmail.com)
 
-
+---
 
 ## Summary  
 
@@ -19,17 +19,14 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 
 ## Overview  
 
-| Folder | Content |  
+## Overview  
 
-|--------|-------------|  
-
-| Computing | Computer science and engineering, including computational methods and code implementations. |  
-
-| math | Mathematical formulas and theoretical concepts. |    
-
-| mixed | Chemistry, Economics, Materials, Nutrition, etc. |  
-
-| Visualization | Data visualization. |  
+| Folder      | Content                                                                 |
+|-------------|-------------------------------------------------------------------------|
+| Computing   | Computer science and engineering, including computational methods and code implementations. |
+| math        | Mathematical formulas and theoretical concepts.                        |
+| mixed       | Chemistry, Economics, Materials, Nutrition, etc.                       |
+| Visualization | Data visualization.                                                    |
 
 
 ## **Session 1 -  More Comprehensive Projects** 
