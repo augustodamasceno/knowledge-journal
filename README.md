@@ -15,6 +15,7 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 * Overview  
 * Session 1 -  More Comprehensive Projects  
 * [Section 2 - Working with Jupyter Files](section2-jupyter.md)  
+* [Section 3 - Computing Interview Preparation](computing/interview/README.md)
 
 
 ## Overview  
@@ -30,8 +31,8 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 
 
 ## **Session 1 -  More Comprehensive Projects** 
-
-* Arduino Notes  [https://github.com/augustodamasceno/notes-arduino](https://github.com/augustodamasceno/notes-arduino)  
+* Project Gabriel [https://github.com/augustodamasceno/gabriel-teleop-platform](https://github.com/augustodamasceno/gabriel-teleop-platform)  
+> A Modular Heterogeneous Teleoperation Platform Designed with a Video-Game-Inspired Interface  
 * C Lib  [https://github.com/augustodamasceno/mylibc](https://github.com/augustodamasceno/mylibc)  
 * FPGA Notes   [https://github.com/augustodamasceno/notes-fpga](https://github.com/augustodamasceno/notes-fpga)  
 * Gin Shell [https://github.com/augustodamasceno/gsh](https://github.com/augustodamasceno/gsh)  
@@ -43,6 +44,9 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 * File [section2-jupyter](section2-jupyter.md)
 
 
+## **Session 3 -  Computing Interview Preparation**
+
+* Start int the file [computing/README.md](computing/interview/README.md)
 
 ## License
 
@@ -51,14 +55,14 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 
 * **Code License**
 
-> Copyright (c) 2025, Augusto Damasceno.  
+> Copyright (c) 2025-2026, Augusto Damasceno.  
 All rights reserved.   
 SPDX-License-Identifier: BSD-2-Clause
 
 
 * **Non-Code License**
 
-> Copyright (c) 2025, Augusto Damasceno.  
+> Copyright (c) 2025-2026, Augusto Damasceno.  
 All rights reserved.  
 SPDX-License-Identifier: CC-BY-4.0  
 
