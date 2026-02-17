@@ -33,8 +33,9 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 ## **Session 1 -  More Comprehensive Projects** 
 * Project Gabriel [https://github.com/augustodamasceno/gabriel-teleop-platform](https://github.com/augustodamasceno/gabriel-teleop-platform)  
 > A Modular Heterogeneous Teleoperation Platform Designed with a Video-Game-Inspired Interface  
+* Market Data - [https://github.com/augustodamasceno/marketdata](https://github.com/augustodamasceno/marketdata)    
+> Open source base project for trading indicators, strategies and bots.    
 * C Lib  [https://github.com/augustodamasceno/mylibc](https://github.com/augustodamasceno/mylibc)  
-* FPGA Notes   [https://github.com/augustodamasceno/notes-fpga](https://github.com/augustodamasceno/notes-fpga)  
 * Gin Shell [https://github.com/augustodamasceno/gsh](https://github.com/augustodamasceno/gsh)  
 * Python Lib  [https://github.com/augustodamasceno/mylibpy](https://github.com/augustodamasceno/mylibpy)  
 
