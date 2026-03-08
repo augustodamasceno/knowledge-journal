@@ -1,6 +1,6 @@
 # Knowledge Journal
 
-My Knowledge Journal is a structured collection of notes on mathematics, engineering, artificial intelligence, programming, economics, and other related fields.
+My Knowledge Journal is a structured collection of notes on engineering, programming, artificial intelligence, mathematics, economics, and other related fields.
 
 ---
 
@@ -13,12 +13,9 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 ## Summary  
 
 * Overview  
-* Session 1 -  More Comprehensive Projects  
+* Session 1 - More Comprehensive Projects  
 * [Section 2 - Working with Jupyter Files](section2-jupyter.md)  
 * [Section 3 - Computing Interview Preparation](computing/interview/README.md)
-
-
-## Overview  
 
 ## Overview  
 
@@ -29,30 +26,35 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 | mixed       | Chemistry, Economics, Materials, Nutrition, etc.                       |
 | Visualization | Data visualization.                                                    |
 
-
-## **Session 1 -  More Comprehensive Projects** 
+## **Session 1 - More Comprehensive Projects** 
 * Project Gabriel [https://github.com/augustodamasceno/gabriel-teleop-platform](https://github.com/augustodamasceno/gabriel-teleop-platform)  
 > A Modular Heterogeneous Teleoperation Platform Designed with a Video-Game-Inspired Interface  
 * Market Data - [https://github.com/augustodamasceno/marketdata](https://github.com/augustodamasceno/marketdata)    
-> Open source base project for trading indicators, strategies and bots.    
+> Open-source base project for trading indicators, strategies, and bots.    
 * C Lib  [https://github.com/augustodamasceno/mylibc](https://github.com/augustodamasceno/mylibc)  
 * Gin Shell [https://github.com/augustodamasceno/gsh](https://github.com/augustodamasceno/gsh)  
 * Python Lib  [https://github.com/augustodamasceno/mylibpy](https://github.com/augustodamasceno/mylibpy)  
-
+* Micrometrics [https://github.com/augustodamasceno/micrometrics](https://github.com/augustodamasceno/micrometrics)  
+> Precision profiling and behavioral analysis suite for fundamental language constructs and data structure scenarios.  
 
 ## **Session 2 - Working with Jupyter Files**
 
 * File [section2-jupyter](section2-jupyter.md)
 
+## **Session 3 - Computing Interview Preparation**  
+> Start in the file [computing/README.md](computing/interview/README.md)  
 
-## **Session 3 -  Computing Interview Preparation**
+This section is dedicated to preparing for computing-related interviews. It includes:
 
-* Start int the file [computing/README.md](computing/interview/README.md)
+* Object-oriented programming  
+* Design patterns  
+* C, C++, and Python specifics  
+* Databases  
+* Coding challenges   
 
 ## License
 
 * Files can have their license. If not explicit, follow the licenses below.  
-
 
 * **Code License**
 
@@ -60,12 +62,11 @@ My Knowledge Journal is a structured collection of notes on mathematics, enginee
 All rights reserved.   
 SPDX-License-Identifier: BSD-2-Clause
 
-
 * **Non-Code License**
 
 > Copyright (c) 2025-2026, Augusto Damasceno.  
 All rights reserved.  
-SPDX-License-Identifier: CC-BY-4.0  
+SPDX-License-Identifier: CC-BY-4.0
 
 
 
