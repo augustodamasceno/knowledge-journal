@@ -47,6 +47,7 @@ My Knowledge Journal is a structured collection of notes on engineering, program
 This section is dedicated to preparing for computing-related interviews. It includes:
 
 * Object-oriented programming  
+* Data Structures  
 * Design patterns  
 * C, C++, and Python specifics  
 * Databases  
