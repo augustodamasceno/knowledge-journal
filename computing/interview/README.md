@@ -8,9 +8,11 @@ This workspace organizes theoretical refreshers and multilingual examples to str
 3. Adapt the provided exercises to your preferred language or interview scenario.
 
 ## Directory Map
-- [oop](oop/README.md) – Recaps OOP pillars with side-by-side shape demos in four languages.  
-- [data-structures](data-structures) - Data Structures for interviews with C++ and Python Examples  
-- [cpp](cpp/README.md) – Focused C++ interview Q&A with supporting source snippets per question.
+- [oop](oop/README.md) – OOP pillars with side-by-side shape demos in four languages.  
+- [data-structures](data-structures/README.md) - Data Structures  with C++ and Python Examples  
+- [databases](databases/README.md) - Databases.  
+- [cpp](cpp/README.md) – C++.  
+- [python](python/README.md) - Python.  
 - [design-patterns](design-patterns/README.md) – Hub index plus subfolders for every Gang of Four pattern.
 	- [design-patterns/creational](design-patterns/creational) – Abstract Factory, Builder, Factory Method, Prototype, Singleton.
 	- [design-patterns/structural](design-patterns/structural) – Adapter through Proxy with practical variations.
