@@ -17,3 +17,7 @@ This workspace organizes theoretical refreshers and multilingual examples to str
 	- [design-patterns/creational](design-patterns/creational) – Abstract Factory, Builder, Factory Method, Prototype, Singleton.
 	- [design-patterns/structural](design-patterns/structural) – Adapter through Proxy with practical variations.
 	- [design-patterns/behavioral](design-patterns/behavioral) – Chain of Responsibility through Visitor, each with runnable demos.
+
+## Related  
+
+- [Project Euler](../project-euler/README.md)  
