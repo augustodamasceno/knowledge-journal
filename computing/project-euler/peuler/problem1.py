@@ -34,5 +34,5 @@ def main():
 
 if  __name__ == "__main__":
     result = main()
-    print(f"Knowledge Journal - Project Euler - Problem 1: {int(result)}")
+    print(f"Knowledge Journal - Project Euler - Problem 1 with complexity O(1): {int(result)}")
 

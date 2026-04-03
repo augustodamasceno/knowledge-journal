@@ -41,9 +41,14 @@ def main():
         c += b
         a, b = b, 4 * b + a
 
+    # The k-th term is (2 + sqrt(5)) ^ k
+    # n = 4.236^k
+    # log(n) = k * log(4.236)
+    # k = log(n) / log(4.236)
+    # k = log_4.236 (n)
     return c
 
 
 if  __name__ == "__main__":
     result = main()
-    print(f"Knowledge Journal - Project Euler - Problem 2: {result}")
+    print(f"Knowledge Journal - Project Euler - Problem 2 with Complexity O(log(n)): {result}")

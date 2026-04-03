@@ -17,6 +17,7 @@ __license__ = "BSD-2-Clause"
 import unittest
 
 from peuler.utils import ap_sum
+from peuler.utils import largest_prime_factor
 
 
 class TestApSum(unittest.TestCase):
@@ -64,6 +65,35 @@ class TestApSum(unittest.TestCase):
     def test_zero_diff_raises_division_error(self):
         with self.assertRaises(ZeroDivisionError):
             ap_sum(first=1, last=10, diff=0)
+
+
+class TestLargestPrimeFactor(unittest.TestCase):
+
+    def test_smallest_prime(self):
+        self.assertEqual(largest_prime_factor(2), 2)
+
+    def test_prime_number(self):
+        self.assertEqual(largest_prime_factor(13), 13)
+
+    def test_prime_squared(self):
+        self.assertEqual(largest_prime_factor(9), 3)
+
+    def test_two_distinct_primes(self):
+        self.assertEqual(largest_prime_factor(14), 7)
+
+    def test_multiple_prime_factors(self):
+        # 2 * 3 * 5 = 30, largest is 5
+        self.assertEqual(largest_prime_factor(30), 5)
+
+    def test_project_euler_example(self):
+        # Problem 3: largest prime factor of 600851475143
+        self.assertEqual(largest_prime_factor(600851475143), 6857)
+
+    def test_large_prime(self):
+        self.assertEqual(largest_prime_factor(104729), 104729)
+
+    def test_power_of_two(self):
+        self.assertEqual(largest_prime_factor(64), 2)
 
 
 if __name__ == '__main__':

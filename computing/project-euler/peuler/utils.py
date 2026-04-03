@@ -32,5 +32,16 @@ def ap_sum(first, last, diff, num_terms=None):
     return (num_terms/2) * (first + last)
 
 
+def largest_prime_factor(num):
+    divisor = 2
+    while divisor * divisor <= num:
+        if num % divisor == 0:
+            num //= divisor
+        else:
+            divisor += 1
+    return num
+
+
+
 if __name__ == "__main__":
     print("Knowledge Journal - Project Euler - Utilities")
