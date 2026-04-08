@@ -1,6 +1,6 @@
 # i3
 
-## [My i3 custom config and i3status](https://github.com/augustodamasceno/dotfiles/i3)  
+## [My i3 customizations](https://github.com/augustodamasceno/dotfiles/i3)  
 
 ## i3 Window Manager Cheat Sheet by Gemini 3.1 Pro
 
@@ -116,5 +116,5 @@ Force specific applications to open in floating mode or on specific workspaces. 
     # Make calculators float
     for_window [class="Qalculate-gtk"] floating enable
 
-    # Always open VS Code on workspace 2
+    # Always open VS Code on workspace 3
     assign [class="Code"] 2
