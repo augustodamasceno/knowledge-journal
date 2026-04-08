@@ -1,6 +1,6 @@
 # i3
 
-## [My i3 customizations](https://github.com/augustodamasceno/dotfiles/i3)  
+## [My i3 customizations](https://github.com/augustodamasceno/dotfiles/i3)    
 
 ## i3 Window Manager Cheat Sheet by Gemini 3.1 Pro
 
