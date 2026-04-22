@@ -1,5 +1,6 @@
-# Large Language Model
-## Run the Jupyter Notebook [llm-anatomy](llm-anatomy.ipynb) 
+# Artificial Neural Networks Theory    
+
+## Run the Jupyter Notebook  
 
 > If you encounter any confusion or have questions while working with the Jupyter notebook file 
 > in this folder, please refer to **Section 2** of the main README. 

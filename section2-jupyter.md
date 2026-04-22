@@ -1,4 +1,4 @@
-# **Session 1 - Working with Jupyter Files**
+# **Section 2 - Working with Jupyter Files**
 
 ## **What are Jupyter Notebook Files?**
 
@@ -8,7 +8,12 @@ These are widely used for data analysis, machine learning, and scientific resear
 
 ## **Prerequisites for Working with Jupyter Notebooks**
 
-Before you start working with Jupyter Notebooks, you need to make sure your system is set up with the necessary tools:
+Before working with Jupyter Notebooks, you need Python and a way to manage packages and isolated environments. There are two main approaches to choose from:
+
+- **Traditional approach (sections 1–3):** Use Python with `pip` for package installation and `venv` for virtual environment management. This is the most widely documented approach and works on all platforms.
+- **Modern approach (section 4):** Use `uv`, a single fast tool written in Rust that replaces `pip`, `venv`, and more. Recommended for new projects due to its speed and simplicity.
+
+Regardless of which approach you choose, section 5 explains how to install project dependencies from a `requirements.txt` file.
 
 ### **1. Python**  
 Jupyter Notebooks are built on Python, so you will need to have Python installed on your system. 
@@ -32,7 +37,7 @@ If pip is not installed, you can install it using:
 python3 -m ensurepip --upgrade
 ```
 
-### *3. Python Virtual Environment (venv)*
+### **3. Python Virtual Environment (venv)**
 
 A **Python virtual environment** creates isolated environments to manage Python packages and dependencies separately for each project, preventing conflicts between projects.
 
@@ -106,7 +111,58 @@ deactivate
 
 Your terminal prompt returns to normal.
 
-#### **4. Requirements**
+### **4. uv**
+
+`uv` is an extremely fast Python package and project manager written in Rust. It can replace `pip`, `venv`, and more in a single tool.
+
+* Installation
+
+```bash
+# Using pip
+pip install uv
+
+# Standalone installer (Linux/macOS)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows (PowerShell)
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+To verify the installation:
+
+```bash
+uv --version
+```
+
+* Creating a Virtual Environment
+
+```bash
+uv venv myenv
+```
+
+Activation and deactivation work the same as with `venv` (see section 3 above).
+
+* Installing Packages
+
+```bash
+uv pip install package_name
+```
+
+* Installing from requirements.txt
+
+```bash
+uv pip install -r requirements.txt
+```
+
+* Running Jupyter directly without activating the environment
+
+```bash
+uv run jupyter notebook
+```
+
+---
+
+### **5. Requirements**
 Activate your virtual environment and install all dependencies listed in the requirements.txt file.
 
 ```bash

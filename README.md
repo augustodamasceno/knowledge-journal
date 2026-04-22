@@ -13,7 +13,7 @@ My Knowledge Journal is a structured collection of notes on engineering, program
 ## Summary  
 
 * Overview  
-* Session 1 - More Comprehensive Projects  
+* Section 1 - More Comprehensive Projects  
 * [Section 2 - Working with Jupyter Files](section2-jupyter.md)  
 * [Section 3 - Computing Interview Preparation](computing/interview/README.md)
 
@@ -26,7 +26,7 @@ My Knowledge Journal is a structured collection of notes on engineering, program
 | mixed       | Chemistry, Economics, Materials, Nutrition, etc.                       |
 | Visualization | Data visualization.                                                    |
 
-## **Session 1 - More Comprehensive Projects** 
+## **Section 1 - More Comprehensive Projects** 
 * Project Gabriel [https://github.com/augustodamasceno/gabriel-teleop-platform](https://github.com/augustodamasceno/gabriel-teleop-platform)  
 > A Modular Heterogeneous Teleoperation Platform Designed with a Video-Game-Inspired Interface  
 * Market Data - [https://github.com/augustodamasceno/marketdata](https://github.com/augustodamasceno/marketdata)    
@@ -37,11 +37,11 @@ My Knowledge Journal is a structured collection of notes on engineering, program
 * Micrometrics [https://github.com/augustodamasceno/micrometrics](https://github.com/augustodamasceno/micrometrics)  
 > Precision profiling and behavioral analysis suite for fundamental language constructs and data structure scenarios.  
 
-## **Session 2 - Working with Jupyter Files**
+## **Section 2 - Working with Jupyter Files**
 
 * File [section2-jupyter](section2-jupyter.md)
 
-## **Session 3 - Computing Interview Preparation**  
+## **Section 3 - Computing Interview Preparation**  
 > Start in the file [computing/README.md](computing/interview/README.md)  
 
 This section is dedicated to preparing for computing-related interviews. It includes:
