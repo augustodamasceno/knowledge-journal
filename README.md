@@ -35,7 +35,11 @@ My Knowledge Journal is a structured collection of notes on engineering, program
 * Gin Shell [https://github.com/augustodamasceno/gsh](https://github.com/augustodamasceno/gsh)  
 * Python Lib  [https://github.com/augustodamasceno/mylibpy](https://github.com/augustodamasceno/mylibpy)  
 * Micrometrics [https://github.com/augustodamasceno/micrometrics](https://github.com/augustodamasceno/micrometrics)  
-> Precision profiling and behavioral analysis suite for fundamental language constructs and data structure scenarios.  
+> Precision profiling and behavioral analysis suite for fundamental language constructs and data structure scenarios. 
+* Dotfiles [https://github.com/augustodamasceno/dotfiles](https://github.com/augustodamasceno/dotfiles)  
+* vimlink [https://github.com/augustodamasceno/vimlink](https://github.com/augustodamasceno/vimlink)  
+> Vim and Neovim setup configurations.
+
 
 ## **Session 2 - Working with Jupyter Files**
 

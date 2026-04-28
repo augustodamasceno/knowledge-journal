@@ -5,6 +5,43 @@ This gist note is Licensed under a [ Creative Commons Attribution 4.0 Internatio
 ## Contact
 > [augustodamasceno@protonmail.com](mailto:augustodamasceno@protonmail.com)
 
+## Downloads
+
+### Windows
+- [Gpg4win](https://www.gpg4win.org/) - GnuPG for Windows (includes Kleopatra)
+- [Official GnuPG Downloads](https://www.gnupg.org/download/index.html)
+
+### Debian/Ubuntu
+```bash
+sudo apt-get install gnupg
+```
+
+### Red Hat/CentOS/Fedora
+```bash
+sudo yum install gnupg
+# or for newer systems
+sudo dnf install gnupg
+```
+
+### Arch Linux
+```bash
+sudo pacman -S gnupg
+```
+
+### FreeBSD
+```bash
+sudo pkg install gnupg
+```
+
+### macOS
+**Using Homebrew:**
+```bash
+brew install gnupg
+```
+
+**Direct Download:**
+- [GPGTools](https://gpgtools.org/) - GnuPG for macOS
+
 ### Generate keys
 ```bash
 gpg --full-generate-key --expert

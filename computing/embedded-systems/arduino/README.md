@@ -1,3 +1,4 @@
-# Notes - Arduino  
-> A complete reference for Basic and Advanced Arduino Programming   
-* https://github.com/augustodamasceno/notes-arduino
+# Arduino  
+
+##  See Module 3 ( Motion Control Firmware) from Project Gabriel  
+### https://github.com/augustodamasceno/gabriel-teleop-platform

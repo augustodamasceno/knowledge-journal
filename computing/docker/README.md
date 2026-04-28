@@ -160,7 +160,8 @@ docker load -i <image_name>.tar
 ```
 
 ## Docker compose samples
-* https://github.com/docker/awesome-compose
+* https://github.com/docker/awesome-compose  
+* https://github.com/augustodamasceno/dotfiles/tree/main/databases  
 
 ## Docker compose PostgreSQL database application example
 ### Write this content in the file postgres_example.yml
@@ -193,4 +194,5 @@ psql -d db -U root
 ## References  
 * https://docs.docker.com/engine/reference/commandline/cli/  
 * https://docs.docker.com/compose/reference/  
-* https://linux.die.net/man/1/rsync
+* https://linux.die.net/man/1/rsync  
+* https://github.com/augustodamasceno/dotfiles/  
