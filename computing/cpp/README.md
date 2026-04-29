@@ -1,12 +1,14 @@
 # C++
 
+## [Notes for **Effective Modern C++** [Reference 5]](effective-modern-cpp.md)
+
 ## References  
 
 * [1] "C++ Standard Library headers," cppreference.com. [Online]. Available: https://en.cppreference.com/w/cpp/header.html. [Accessed: Dec. 24, 2025].
 * [2] B. Stroustrup, *The C++ Programming Language*, 4th ed. Boston, MA, USA: Addison-Wesley, 2013.  
 * [3] B. Stroustrup, *A Tour of C++*, 3rd ed. Boston, MA, USA: Addison-Wesley, 2022.
 * [4] M. Gregoire, *Professional C++*, 6th ed. Hoboken, NJ, USA: Wiley, 2024.  
-* [5] S. Meyers, *Effective Modern C++*. Sebastopol, CA, USA: O'Reilly Media, 2014.  
+* [5] S. Meyers, *Effective Modern C++*. Sebastopol, CA, USA: O'Reilly Media, 2015.  
 * [6] S. Meyers, *Effective C++*, 3rd ed. Boston, MA, USA: Addison-Wesley, 2005.
 * [7] S. Meyers, *More Effective C++*. Boston, MA, USA: Addison-Wesley, 1996.
 * [8] S. Ghosh, *Building Low Latency Applications with C++*. Birmingham, UK: Packt Publishing, 2023.  
