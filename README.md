@@ -60,7 +60,7 @@ This section is dedicated to preparing for computing-related interviews. It incl
 
 ## **Session 4 - Code Generation with AI**
 
-* File[section3-code-generation](section4-code-generation.md)
+* File [section4-code-generation](section4-code-generation.md)
 
 ## License
 
@@ -77,6 +77,4 @@ SPDX-License-Identifier: BSD-2-Clause
 > Copyright (c) 2025-2026, Augusto Damasceno.  
 All rights reserved.  
 SPDX-License-Identifier: CC-BY-4.0
-
-
 
