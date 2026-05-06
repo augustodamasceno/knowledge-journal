@@ -16,6 +16,7 @@ My Knowledge Journal is a structured collection of notes on engineering, program
 * Session 1 - More Comprehensive Projects  
 * [Section 2 - Working with Jupyter Files](section2-jupyter.md)  
 * [Section 3 - Computing Interview Preparation](computing/interview/README.md)
+* [Session 4 - Code Generation with AI](section4-code-generation.md)
 
 ## Overview  
 
@@ -56,6 +57,10 @@ This section is dedicated to preparing for computing-related interviews. It incl
 * C, C++, and Python specifics  
 * Databases  
 * Coding challenges   
+
+## **Session 4 - Code Generation with AI**
+
+* File[section3-code-generation](section4-code-generation.md)
 
 ## License
 
