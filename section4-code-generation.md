@@ -1,8 +1,8 @@
 # **Session 4 - Code Generation with AI**
 
-## 1. LLM instructions for code generation from dotfiles project.
+## 1. Agentic instructions for code generation from dotfiles project.
 
-### [https://github.com/augustodamasceno/dotfiles/tree/main/llm](https://github.com/augustodamasceno/dotfiles/tree/main/llm)
+### [https://github.com/augustodamasceno/dotfiles/tree/main/llm-agents](https://github.com/augustodamasceno/dotfiles/tree/main/llm-agents)
 
 ## 2. Instruction Markdown Standards for LLMs / Agents
  
