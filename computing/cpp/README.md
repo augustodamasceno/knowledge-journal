@@ -6,12 +6,12 @@
 
 | Register group | Width | HW names | C++ type names (intrinsics) | Common intrinsic functions in C++ | Description |
 |---|---:|---|---|---|---|
-| MMX | 64-bit | `mm0`-`mm7` | `__m64` | `_mm_add_pi16`, `_mm_mulhi_pi16` | Legacy packed-integer SIMD registers (alias x87 FP state); mostly obsolete in new code. |
-| XMM | 128-bit | `xmm0`-`xmm31` | `__m128`, `__m128d`, `__m128i` | `_mm_loadu_ps`, `_mm_add_ps`, `_mm_storeu_ps` | SSE/SSE2+ vectors; also low 128 bits of YMM/ZMM. |
-| YMM | 256-bit | `ymm0`-`ymm31` | `__m256`, `__m256d`, `__m256i` | `_mm256_loadu_ps`, `_mm256_add_ps`, `_mm256_storeu_ps` | AVX/AVX2 vectors; extend XMM to 256 bits. |
-| ZMM | 512-bit | `zmm0`-`zmm31` | `__m512`, `__m512d`, `__m512i` | `_mm512_loadu_ps`, `_mm512_add_ps`, `_mm512_storeu_ps` | AVX-512 vectors; extend YMM/XMM to 512 bits. |
-| Opmask (`k`) | 8/16/32/64-bit masks | `k0`-`k7` | `__mmask8`, `__mmask16`, `__mmask32`, `__mmask64` | `_mm512_mask_add_ps`, `_mm512_maskz_add_ps` | AVX-512 lane masks controlling merge/zero behavior. |
-| Tile (`tmm`) | 2D tile state | `tmm0`-`tmm7` | (configured through AMX tile APIs) | `_tile_loadconfig`, `_tile_loadd`, `_tile_dpbf16ps`, `_tile_stored` | AMX matrix tiles; separate ISA from AVX but part of SIMD evolution. |
+| MMX | 64-bit | `mm0`-`mm7` | `__m64` | `_mm_set_pi16`, `_mm_add_pi16`, `_mm_sub_pi16`, `_mm_mulhi_pi16`, `_mm_unpackhi_pi16`, `_mm_empty` | Legacy packed-integer SIMD registers (alias x87 FP state); mostly obsolete in new code. |
+| XMM | 128-bit | `xmm0`-`xmm31` | `__m128`, `__m128d`, `__m128i` | `_mm_set1_ps`, `_mm_loadu_ps`, `_mm_add_ps`, `_mm_mul_ps`, `_mm_and_ps`, `_mm_cmplt_ps`, `_mm_shuffle_ps`, `_mm_storeu_ps` | SSE/SSE2+ vectors; also low 128 bits of YMM/ZMM. |
+| YMM | 256-bit | `ymm0`-`ymm31` | `__m256`, `__m256d`, `__m256i` | `_mm256_set1_ps`, `_mm256_loadu_ps`, `_mm256_add_ps`, `_mm256_mul_ps`, `_mm256_fmadd_ps`, `_mm256_blend_ps`, `_mm256_permutevar8x32_ps`, `_mm256_storeu_ps` | AVX/AVX2 vectors; extend XMM to 256 bits. |
+| ZMM | 512-bit | `zmm0`-`zmm31` | `__m512`, `__m512d`, `__m512i` | `_mm512_set1_ps`, `_mm512_loadu_ps`, `_mm512_add_ps`, `_mm512_mul_ps`, `_mm512_fmadd_ps`, `_mm512_permutexvar_ps`, `_mm512_reduce_add_ps`, `_mm512_storeu_ps` | AVX-512 vectors; extend YMM/XMM to 512 bits. |
+| Opmask (`k`) | 8/16/32/64-bit masks | `k0`-`k7` | `__mmask8`, `__mmask16`, `__mmask32`, `__mmask64` | `_mm512_cmp_ps_mask`, `_mm512_kand`, `_mm512_kor`, `_mm512_kxor`, `_mm512_mask_add_ps`, `_mm512_maskz_add_ps` | AVX-512 lane masks controlling merge/zero behavior. |
+| Tile (`tmm`) | 2D tile state | `tmm0`-`tmm7` | (configured through AMX tile APIs) | `_tile_loadconfig`, `_tile_loadd`, `_tile_stream_loadd`, `_tile_dpbf16ps`, `_tile_dpbssd`, `_tile_dpbsud`, `_tile_stored`, `_tile_release` | AMX matrix tiles; separate ISA from AVX but part of SIMD evolution. |
 
 Notes:
 - `xmmN`, `ymmN`, and `zmmN` are overlapping views of the same logical vector register number `N`.
