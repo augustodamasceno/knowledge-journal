@@ -56,8 +56,10 @@ Notes:
 * [33] "Compiler Explorer," Godbolt. [Online]. Available: https://godbolt.org/. [Accessed: Feb. 17, 2026].
 * [34] "C++ Shell," cpp.sh. [Online]. Available: https://cpp.sh/. [Accessed: Feb. 17, 2026].
 * [35] Intel, "Intel 64 and IA-32 Architectures Software Developer's Manual," vols. 1-4. [Online]. Available: https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html. [Accessed: May 7, 2026].
-* [36] Intel, "Intel Intrinsics Guide." [Online]. Available: https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html. [Accessed: May 7, 2026].
+* [36] Intel, "Intel Intrinsics Guide (searchable per-intrinsic index)." [Online]. Available: https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html. [Accessed: May 7, 2026].
 * [37] AMD, "AMD64 Architecture Programmer's Manual, Volumes 1-5." [Online]. Available: https://www.amd.com/en/support/tech-docs/amd64-architecture-programmers-manual-volumes-1-5. [Accessed: May 7, 2026].
-* [38] GCC, "x86 Built-in Functions (x86 Intrinsics)," GCC Online Documentation. [Online]. Available: https://gcc.gnu.org/onlinedocs/gcc/x86-Built-in-Functions.html. [Accessed: May 7, 2026].
-* [39] Clang, "Language Extensions - x86/X86-64 Intrinsics and Builtins," Clang documentation. [Online]. Available: https://clang.llvm.org/docs/LanguageExtensions.html. [Accessed: May 7, 2026].
-* [40] Microsoft, "x86 intrinsics list," Microsoft Learn. [Online]. Available: https://learn.microsoft.com/cpp/intrinsics/x86-intrinsics-list. [Accessed: May 7, 2026].
+* [38] GCC, "x86 Built-in Functions (x86 intrinsics families/index)," GCC Online Documentation. [Online]. Available: https://gcc.gnu.org/onlinedocs/gcc/x86-Built-in-Functions.html. [Accessed: May 7, 2026].
+* [39] Clang, "Language Extensions - x86/X86-64 Intrinsics and Builtins (index-style)," Clang documentation. [Online]. Available: https://clang.llvm.org/docs/LanguageExtensions.html. [Accessed: May 7, 2026].
+* [40] Microsoft, "x86 intrinsics list (index-style)," Microsoft Learn. [Online]. Available: https://learn.microsoft.com/cpp/intrinsics/x86-intrinsics-list. [Accessed: May 7, 2026].
+* [41] LLVM Project, "`avxintrin.h` (Clang AVX intrinsic declarations, including `_mm256_loadu_ps`)." [Online]. Available: https://github.com/llvm/llvm-project/blob/main/clang/lib/Headers/avxintrin.h. [Accessed: May 7, 2026].
+* [42] Felix Cloutier, "x86 Instruction Reference: `MOVUPS/VMOVUPS` (instruction behind unaligned float loads)." [Online]. Available: https://www.felixcloutier.com/x86/movups. [Accessed: May 7, 2026].
