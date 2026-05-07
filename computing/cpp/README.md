@@ -1,8 +1,25 @@
 # C++
 
-## [Notes for **Effective Modern C++** [Reference 5]](effective-modern-cpp.md)
+## 1.1 [Notes for **Effective Modern C++** [Reference 5]](effective-modern-cpp.md)
 
-## References  
+## 1.2 SIMD / AVX register quick reference
+
+| Register group | Width | HW names | C++ type names (intrinsics) | Common intrinsic functions in C++ | Description |
+|---|---:|---|---|---|---|
+| MMX | 64-bit | `mm0`-`mm7` | `__m64` | `_mm_add_pi16`, `_mm_mulhi_pi16` | Legacy packed-integer SIMD registers (alias x87 FP state); mostly obsolete in new code. |
+| XMM | 128-bit | `xmm0`-`xmm31` | `__m128`, `__m128d`, `__m128i` | `_mm_loadu_ps`, `_mm_add_ps`, `_mm_storeu_ps` | SSE/SSE2+ vectors; also low 128 bits of YMM/ZMM. |
+| YMM | 256-bit | `ymm0`-`ymm31` | `__m256`, `__m256d`, `__m256i` | `_mm256_loadu_ps`, `_mm256_add_ps`, `_mm256_storeu_ps` | AVX/AVX2 vectors; extend XMM to 256 bits. |
+| ZMM | 512-bit | `zmm0`-`zmm31` | `__m512`, `__m512d`, `__m512i` | `_mm512_loadu_ps`, `_mm512_add_ps`, `_mm512_storeu_ps` | AVX-512 vectors; extend YMM/XMM to 512 bits. |
+| Opmask (`k`) | 8/16/32/64-bit masks | `k0`-`k7` | `__mmask8`, `__mmask16`, `__mmask32`, `__mmask64` | `_mm512_mask_add_ps`, `_mm512_maskz_add_ps` | AVX-512 lane masks controlling merge/zero behavior. |
+| Tile (`tmm`) | 2D tile state | `tmm0`-`tmm7` | (configured through AMX tile APIs) | `_tile_loadconfig`, `_tile_loadd`, `_tile_dpbf16ps`, `_tile_stored` | AMX matrix tiles; separate ISA from AVX but part of SIMD evolution. |
+
+Notes:
+- `xmmN`, `ymmN`, and `zmmN` are overlapping views of the same logical vector register number `N`.
+- Wider AVX-512 register files (`xmm16`-`xmm31`, `ymm16`-`ymm31`, `zmm16`-`zmm31`) require AVX-512 support.
+- In common C/C++ intrinsics headers, types usually map as: `__m128` -> XMM, `__m256` -> YMM, `__m512` -> ZMM.
+- In normal C++ you use intrinsic types/functions; you usually do not pick exact register numbers (`xmm3`, `ymm7`, etc.), because the compiler register allocator chooses them.
+
+## 1.3 References  
 
 * [1] "C++ Standard Library headers," cppreference.com. [Online]. Available: https://en.cppreference.com/w/cpp/header.html. [Accessed: Dec. 24, 2025].
 * [2] B. Stroustrup, *The C++ Programming Language*, 4th ed. Boston, MA, USA: Addison-Wesley, 2013.  
@@ -38,3 +55,9 @@
 * [32] J. Boccara, "Fluent C++," Fluent C++. [Online]. Available: https://www.fluentcpp.com/. [Accessed: Feb. 17, 2026].
 * [33] "Compiler Explorer," Godbolt. [Online]. Available: https://godbolt.org/. [Accessed: Feb. 17, 2026].
 * [34] "C++ Shell," cpp.sh. [Online]. Available: https://cpp.sh/. [Accessed: Feb. 17, 2026].
+* [35] Intel, "Intel 64 and IA-32 Architectures Software Developer's Manual," vols. 1-4. [Online]. Available: https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html. [Accessed: May 7, 2026].
+* [36] Intel, "Intel Intrinsics Guide." [Online]. Available: https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html. [Accessed: May 7, 2026].
+* [37] AMD, "AMD64 Architecture Programmer's Manual, Volumes 1-5." [Online]. Available: https://www.amd.com/en/support/tech-docs/amd64-architecture-programmers-manual-volumes-1-5. [Accessed: May 7, 2026].
+* [38] GCC, "x86 Built-in Functions (x86 Intrinsics)," GCC Online Documentation. [Online]. Available: https://gcc.gnu.org/onlinedocs/gcc/x86-Built-in-Functions.html. [Accessed: May 7, 2026].
+* [39] Clang, "Language Extensions - x86/X86-64 Intrinsics and Builtins," Clang documentation. [Online]. Available: https://clang.llvm.org/docs/LanguageExtensions.html. [Accessed: May 7, 2026].
+* [40] Microsoft, "x86 intrinsics list," Microsoft Learn. [Online]. Available: https://learn.microsoft.com/cpp/intrinsics/x86-intrinsics-list. [Accessed: May 7, 2026].
